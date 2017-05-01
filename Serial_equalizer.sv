@@ -7,7 +7,7 @@ module Serial_equalizer{
 	input right_data,
 	
 	//Output ports.
-	output
+	output conv_out
 
 }
 
