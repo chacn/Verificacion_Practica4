@@ -1,0 +1,76 @@
+*.db_info
+*.db_info
+*.flock
+*.qtl
+*/work/*
+
+# ignore ModelSim generated files and directories (temp files and so on)
+[_@]*
+
+# ignore compilation output of ModelSim
+*.mti
+*.dat
+*.dbs
+*.psm
+*.bak
+*.cmp
+*.jpg
+*.html
+*.bsf
+*.cdb
+*.hdb
+*.ddb
+
+# ignore simulation output of ModelSim
+wlf*
+*.wlf
+*.vstf
+*.ucdb
+cov*/
+transcript*
+sc_dpiheader.h
+vsim.dbg
+
+# Need to keep all HDL files
+# *.vhd
+# *.v
+
+# ignore Quartus generated files
+*_generation_script*
+*_inst.vhd
+*.bak
+*.cmp
+*.done
+*.eqn
+*.hex
+*.html
+*.jdi
+*.jpg
+*.mif
+*.pin
+*.pof
+*.ptf.*
+*.qar
+*.qarlog
+*.qws
+*.rpt
+*.smsg
+*.sof
+*.sopc_builder
+*.summary
+*.tcl
+*.sci
+# *.txt # Explicitly add any text files used
+*~
+*example*
+*sopc_*
+# *.sdc # I want those timing files
+
+# ignore Quartus II generated folders
+db/
+incremental_db/
+simulation/
+timing/
+testbench/
+*_sim/
+output_files/
