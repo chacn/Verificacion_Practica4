@@ -51,3 +51,17 @@ set_global_assignment -name NOMINAL_CORE_SUPPLY_VOLTAGE 1.2V
 set_global_assignment -name EDA_SIMULATION_TOOL "ModelSim-Altera (Verilog)"
 set_global_assignment -name EDA_TIME_SCALE "1 ps" -section_id eda_simulation
 set_global_assignment -name EDA_OUTPUT_DATA_FORMAT "VERILOG HDL" -section_id eda_simulation
+set_global_assignment -name SYSTEMVERILOG_FILE shift_register_left.sv
+set_global_assignment -name SYSTEMVERILOG_FILE Multiplexers_4_to_1.sv
+set_global_assignment -name SYSTEMVERILOG_FILE BinaryCounter.sv
+set_global_assignment -name SYSTEMVERILOG_FILE conv_parallel.sv
+set_global_assignment -name SYSTEMVERILOG_FILE shift_register_right.sv
+set_global_assignment -name SYSTEMVERILOG_FILE single_port_rom.sv
+set_global_assignment -name SYSTEMVERILOG_FILE simple_dual_port_ram_single_clock.sv
+set_global_assignment -name SYSTEMVERILOG_FILE Serial_equalizer.sv
+set_global_assignment -name SYSTEMVERILOG_FILE Register.sv
+set_global_assignment -name SYSTEMVERILOG_FILE ONEshot.sv
+set_global_assignment -name SYSTEMVERILOG_FILE Multiplexers.sv
+set_global_assignment -name SYSTEMVERILOG_FILE Fixed_Point_MAC.sv
+set_global_assignment -name SYSTEMVERILOG_FILE FIFO.sv
+set_global_assignment -name SYSTEMVERILOG_FILE adc_dac_conversion.sv
